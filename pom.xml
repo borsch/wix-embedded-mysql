@@ -156,12 +156,12 @@
 
     <distributionManagement>
         <repository>
-            <id>ossrh</id>
-            <url>https://maven.pkg.github.com/borsch</url>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/borsch/wix-embedded-mysql</url>
         </repository>
         <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://maven.pkg.github.com/borsch</url>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/borsch/wix-embedded-mysql</url>
         </snapshotRepository>
     </distributionManagement>
 

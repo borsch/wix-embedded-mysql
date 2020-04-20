@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.wix</groupId>
+    <groupId>com.github.borsch</groupId>
     <artifactId>wix-embedded-mysql-modules</artifactId>
     <version>4.6.2-SNAPSHOT</version>
     <name>Wix Embedded MySql Modules aggregator</name>
@@ -26,9 +26,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:wix/wix-embedded-mysql.git</connection>
-        <developerConnection>scm:git:git@github.com:wix/wix-embedded-mysql.git</developerConnection>
-        <url>git@github.com:wix/wix-embedded-mysql.git</url>
+        <connection>scm:git:git@github.com:borsch/wix-embedded-mysql.git</connection>
+        <developerConnection>scm:git:git@github.com:borsch/wix-embedded-mysql.git</developerConnection>
+        <url>git@github.com:borsch/wix-embedded-mysql.git</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -114,6 +114,8 @@
                     <useReleaseProfile>false</useReleaseProfile>
                     <releaseProfiles>release</releaseProfiles>
                     <goals>deploy</goals>
+                    <pushChanges>false</pushChanges>
+                    <localCheckout>true</localCheckout>
                 </configuration>
             </plugin>
             <plugin>
